@@ -15,12 +15,6 @@ FAIL src/App.test.tsx
         [36m<div[39m
           [33mclass[39m=[32m"App"[39m
         [36m>[39m
-          [36m<h1>[39m
-            [0mJoanna Crisomia[0m
-          [36m</h1>[39m
-          [36m<h1>[39m
-            [0mJoey Dare[0m
-          [36m</h1>[39m
           [36m<div[39m
             [33mstyle[39m=[32m"border: 1px solid #ccc; padding: 20px; display: flex; align-items: center; flex-direction: column;"[39m
           [36m>[39m
@@ -56,6 +50,9 @@ FAIL src/App.test.tsx
               [0mSubmit[0m
             [36m</button>[39m
           [36m</form>[39m
+          [36m<h1>[39m
+            [0mKai Winterle, Joey Dare, Joanna Crisomia, Ricky Kiamilev[0m
+          [36m</h1>[39m
         [36m</div>[39m
       [36m</div>[39m
     [36m</body>[39m
@@ -94,7 +91,7 @@ All files            |   38.46 |       30 |      25 |   38.46 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.692 s
+Time:        2.736 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
