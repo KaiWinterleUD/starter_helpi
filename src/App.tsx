@@ -13,6 +13,14 @@ if (prevKey !== null) {
 
 function App() {
   const [key, setKey] = useState<string>(keyData); //for api key input
+  const [workPref, setWorkPref] = useState<string>('');
+  const [creativity, setCreativity] = useState<string>('');
+  const [adapt, setAdapt] = useState<string>('');
+  const [impact, setImpact] = useState<string>('');
+  const [routine, setRoutine] = useState<string>('');
+  const [leadership, setLeadership] = useState<string>('');
+  const [environment, setEnvironment] = useState<string>('');
+  const [showQuestions, setShowQuestions] = useState<boolean>(false);
   
   //sets the local storage item to the api key the user inputed
   function handleSubmit() {
@@ -24,6 +32,11 @@ function App() {
   function changeKey(event: React.ChangeEvent<HTMLInputElement>) {
     setKey(event.target.value);
   }
+
+  function toggleQuestions() {
+    setShowQuestions(!showQuestions);
+  }
+
   return (
     <div className="App">
       <h1>Joanna Crisomia</h1>
@@ -47,6 +60,62 @@ function App() {
         <br></br>
         <Button className="Submit-Button" onClick={handleSubmit}>Submit</Button>
       </Form>
+
+      <Button variant="primary" size="lg" onClick={toggleQuestions}>Basic</Button>
+      {showQuestions && (
+      <div className="question-section">
+        
+        <div className="question">
+          <p>How much do you prefer working independently over working collaboratively?</p>
+          <Button variant={workPref === 'Not at all' ? 'primary' : 'secondary'} onClick={() => setWorkPref('Not at all')}>Not at all</Button>
+          <Button variant={workPref === 'Neutral' ? 'primary' : 'secondary'} onClick={() => setWorkPref('Neutral')}>Neutral</Button>
+          <Button variant={workPref === 'Very much' ? 'primary' : 'secondary'} onClick={() => setWorkPref('Very much')}>Very much</Button>
+        </div>
+
+        <div className="question">
+          <p>How important is expressing creativity and passion in your work?</p>
+          <Button variant={creativity === 'Not important' ? 'primary' : 'secondary'} onClick={() => setCreativity('Not important')}>Not important</Button>
+          <Button variant={creativity === 'Neutral' ? 'primary' : 'secondary'} onClick={() => setCreativity('Neutral')}>Neutral</Button>
+          <Button variant={creativity === 'Important' ? 'primary' : 'secondary'} onClick={() => setCreativity('Important')}>Important</Button>
+        </div>
+
+        <div className="question">
+          <p>How easily do you adapt to changes in your work environment and job responsibilities?</p>
+          <Button variant={adapt === 'Difficult' ? 'primary' : 'secondary'} onClick={() => setAdapt('Difficult')}>Difficult</Button>
+          <Button variant={adapt === 'Neutral' ? 'primary' : 'secondary'} onClick={() => setAdapt('Neutral')}>Neutral</Button>
+          <Button variant={adapt === 'Easy' ? 'primary' : 'secondary'} onClick={() => setAdapt('Easy')}>Easy</Button>
+        </div>
+
+        <div className="question">
+          <p>How important is it for you to make a tangible impact through your work?</p>
+          <Button variant={impact === 'Not important' ? 'primary' : 'secondary'} onClick={() => setImpact('Not important')}>Not important</Button>
+          <Button variant={impact === 'Neutral' ? 'primary' : 'secondary'} onClick={() => setImpact('Neutral')}>Neutral</Button>
+          <Button variant={impact === 'Very Important' ? 'primary' : 'secondary'} onClick={() => setImpact('Very Important')}>Very Important</Button>
+        </div>
+
+        <div className="question">
+          <p>How important is having a set routine in the workplace to you?</p>
+          <Button variant={routine === 'Not important' ? 'primary' : 'secondary'} onClick={() => setRoutine('Not important')}>Not important</Button>
+          <Button variant={routine === 'Neutral' ? 'primary' : 'secondary'} onClick={() => setRoutine('Neutral')}>Neutral</Button>
+          <Button variant={routine === 'Important' ? 'primary' : 'secondary'} onClick={() => setRoutine('Important')}>Important</Button>
+        </div>
+
+        <div className="question">
+          <p>Do you see yourself as a natural leader and enjoy taking charge of projects?</p>
+          <Button variant={leadership === 'Not at all' ? 'primary' : 'secondary'} onClick={() => setLeadership('Not at all')}>Not at all</Button>
+          <Button variant={leadership === 'Neutral' ? 'primary' : 'secondary'} onClick={() => setLeadership('Neutral')}>Neutral</Button>
+          <Button variant={leadership === 'Very much' ? 'primary' : 'secondary'} onClick={() => setLeadership('Very much')}>Very much</Button>
+        </div>
+
+        <div className="question">
+          <p>Do you prefer an office environment or an environment that is frequently changing?</p>
+          <Button variant={environment === 'Office' ? 'primary' : 'secondary'} onClick={() => setEnvironment('Office')}>Office</Button>
+          <Button variant={environment === 'Neutral' ? 'primary' : 'secondary'} onClick={() => setEnvironment('Neutral')}>Neutral</Button>
+          <Button variant={environment === 'Changing' ? 'primary' : 'secondary'} onClick={() => setEnvironment('Changing Environment')}>Changing Environment</Button>
+        </div>
+
+      </div>
+      )} 
     </div>
   );
 }
