@@ -12,16 +12,16 @@ if (prevKey !== null) {
 }
 
 function App() {
-  const [key, setKey] = useState<string>(keyData); //for api key input
-  const [workPref, setWorkPref] = useState<string>('');
-  const [creativity, setCreativity] = useState<string>('');
-  const [adapt, setAdapt] = useState<string>('');
-  const [impact, setImpact] = useState<string>('');
-  const [routine, setRoutine] = useState<string>('');
-  const [leadership, setLeadership] = useState<string>('');
-  const [environment, setEnvironment] = useState<string>('');
-  const [showQuestions, setShowQuestions] = useState<boolean>(false);
-  
+  const [key, setKey] = useState<string>(keyData);                    //for api key input
+  const [workPref, setWorkPref] = useState<string>('');               // work type preference
+  const [creativity, setCreativity] = useState<string>('');           // preference of creativity in work
+  const [adapt, setAdapt] = useState<string>('');                     // how easily do you adapt
+  const [impact, setImpact] = useState<string>('');                   // importance of impact
+  const [routine, setRoutine] = useState<string>('');                 // is a routine needed
+  const [leadership, setLeadership] = useState<string>('');           // is collaborative learning important
+  const [environment, setEnvironment] = useState<string>('');         // work environment
+  const [showQuestions, setShowQuestions] = useState<boolean>(false); //shows questions if basic button pressed
+   
   //sets the local storage item to the api key the user inputed
   function handleSubmit() {
     localStorage.setItem(saveKeyData, JSON.stringify(key));
@@ -34,6 +34,7 @@ function App() {
   }
 
   function toggleQuestions() {
+    // show questions if not already shown
     setShowQuestions(!showQuestions);
   }
 
