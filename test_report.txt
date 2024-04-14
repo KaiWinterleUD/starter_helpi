@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (92 ms)
+  ✕ renders learn react link (85 ms)
 
   ● renders learn react link
 
@@ -13,7 +13,7 @@ FAIL src/App.test.tsx
     [36m<body>[39m
       [36m<div>[39m
         [36m<nav[39m
-          [33mclass[39m=[32m"bg-info justify-content-center navbar navbar-expand-lg navbar-light"[39m
+          [33mclass[39m=[32m"navbar navbar-expand navbar-light"[39m
         [36m>[39m
           [36m<div[39m
             [33mclass[39m=[32m"container"[39m
@@ -76,478 +76,488 @@ FAIL src/App.test.tsx
         [36m<div[39m
           [33mclass[39m=[32m"App"[39m
         [36m>[39m
+          [36m<h1>[39m
+            [0mJoanna Crisomia[0m
+          [36m</h1>[39m
+          [36m<h1>[39m
+            [0mJoey Dare[0m
+          [36m</h1>[39m
           [36m<div[39m
-            [33mclass[39m=[32m"home-container"[39m
+            [33mclass[39m=[32m"App"[39m
           [36m>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"home-column"[39m
+              [33mclass[39m=[32m"home-container"[39m
             [36m>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"home-button btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"home-column"[39m
               [36m>[39m
-                [0mHome Page[0m
-              [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"home-button btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mHome Page[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"home-column"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"basic-button btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mBasic Questions[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"home-column"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"detailed-button btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mDetailed Questions[0m
+                [36m</button>[39m
+              [36m</div>[39m
             [36m</div>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"home-column"[39m
+              [33mclass[39m=[32m"question-section"[39m
             [36m>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"basic-button btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"question"[39m
               [36m>[39m
-                [0mBasic Questions[0m
-              [36m</button>[39m
+                [36m<p>[39m
+                  [0mHow much do you prefer working independently over working collaboratively?[0m
+                [36m</p>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNot at all[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNeutral[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mVery much[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"question"[39m
+              [36m>[39m
+                [36m<p>[39m
+                  [0mHow important is expressing creativity and passion in your work?[0m
+                [36m</p>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNot important[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNeutral[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mImportant[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"question"[39m
+              [36m>[39m
+                [36m<p>[39m
+                  [0mHow easily do you adapt to changes in your work environment and job responsibilities?[0m
+                [36m</p>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mDifficult[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNeutral[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mEasy[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"question"[39m
+              [36m>[39m
+                [36m<p>[39m
+                  [0mHow important is it for you to make a tangible impact through your work?[0m
+                [36m</p>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNot important[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNeutral[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mVery Important[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"question"[39m
+              [36m>[39m
+                [36m<p>[39m
+                  [0mHow important is having a set routine in the workplace to you?[0m
+                [36m</p>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNot important[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNeutral[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mImportant[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"question"[39m
+              [36m>[39m
+                [36m<p>[39m
+                  [0mDo you see yourself as a natural leader and enjoy taking charge of projects?[0m
+                [36m</p>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNot at all[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNeutral[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mVery much[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"question"[39m
+              [36m>[39m
+                [36m<p>[39m
+                  [0mDo you prefer an office environment or an environment that is frequently changing?[0m
+                [36m</p>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mOffice[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNeutral[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mChanging Environment[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"question"[39m
+              [36m>[39m
+                [36m<p>[39m
+                  [0mHow much do you prefer working independently over working collaboratively?[0m
+                [36m</p>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNot at all[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m/>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNeutral[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m/>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mVery much[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"question"[39m
+              [36m>[39m
+                [36m<p>[39m
+                  [0mHow significant is the opportunity to be creative and have passion within your work?[0m
+                [36m</p>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNot significant[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m/>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNeutral[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m/>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mVery significant[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"question"[39m
+              [36m>[39m
+                [36m<p>[39m
+                  [0mHow easily do you adapt to changes in your work environment and job responsibilities?[0m
+                [36m</p>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mDifficult[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m/>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNeutral[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m/>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mEasy[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"question"[39m
+              [36m>[39m
+                [36m<p>[39m
+                  [0mHow important is it for you to make a measurable and meaningful impact through your work?[0m
+                [36m</p>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNot at all important[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m/>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNeutral[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m/>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mVery important[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"question"[39m
+              [36m>[39m
+                [36m<p>[39m
+                  [0mHow important is collaborative learning in your professional development?[0m
+                [36m</p>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNot at all important[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m/>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNeutral[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m/>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mVery important[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"question"[39m
+              [36m>[39m
+                [36m<p>[39m
+                  [0mHow significant is a structured and consistent routine within your workplace to your overall job satisfaction and productivity?[0m
+                [36m</p>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNot at all significant[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m/>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNeutral[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m/>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mVery significant[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"question"[39m
+              [36m>[39m
+                [36m<p>[39m
+                  [0mDo you prefer an office environment or an environment that is frequently changing?[0m
+                [36m</p>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mOffice[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m/>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mNeutral[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m/>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-secondary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mChanging Environment[0m
+                [36m</button>[39m
+              [36m</div>[39m
             [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"home-column"[39m
+            [36m<footer[39m
+              [33mclass[39m=[32m"footer"[39m
             [36m>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"detailed-button btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
+              [36m<h1>[39m
+                [0mKai Winterle, Joey Dare, Joanna Crisomia, Ricky Kiamilev[0m
+              [36m</h1>[39m
+              [36m<form[39m
+                [33mclass[39m=[32m""[39m
               [36m>[39m
-                [0mDetailed Questions[0m
-              [36m</button>[39m
-            [36m</div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-label"[39m
+                [36m>[39m
+                  [0mAPI Key:[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-control"[39m
+                  [33mplaceholder[39m=[32m"Insert API Key Here"[39m
+                  [33mtype[39m=[32m"password"[39m
+                [36m/>[39m
+                [36m<br />[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"Submit-Button btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mSubmit[0m
+                [36m</button>[39m
+              [36m</form>[39m
+            [36m</footer>[39m
           [36m</div>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"question-section"[39m
-          [36m>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"question"[39m
-            [36m>[39m
-              [36m<p>[39m
-                [0mHow much do you prefer working independently over working collaboratively?[0m
-              [36m</p>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNot at all[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNeutral[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mVery much[0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"question"[39m
-            [36m>[39m
-              [36m<p>[39m
-                [0mHow important is expressing creativity and passion in your work?[0m
-              [36m</p>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNot important[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNeutral[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mImportant[0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"question"[39m
-            [36m>[39m
-              [36m<p>[39m
-                [0mHow easily do you adapt to changes in your work environment and job responsibilities?[0m
-              [36m</p>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mDifficult[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNeutral[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mEasy[0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"question"[39m
-            [36m>[39m
-              [36m<p>[39m
-                [0mHow important is it for you to make a tangible impact through your work?[0m
-              [36m</p>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNot important[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNeutral[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mVery Important[0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"question"[39m
-            [36m>[39m
-              [36m<p>[39m
-                [0mHow important is having a set routine in the workplace to you?[0m
-              [36m</p>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNot important[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNeutral[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mImportant[0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"question"[39m
-            [36m>[39m
-              [36m<p>[39m
-                [0mDo you see yourself as a natural leader and enjoy taking charge of projects?[0m
-              [36m</p>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNot at all[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNeutral[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mVery much[0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"question"[39m
-            [36m>[39m
-              [36m<p>[39m
-                [0mDo you prefer an office environment or an environment that is frequently changing?[0m
-              [36m</p>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mOffice[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNeutral[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mChanging Environment[0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"question"[39m
-            [36m>[39m
-              [36m<p>[39m
-                [0mHow much do you prefer working independently over working collaboratively?[0m
-              [36m</p>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNot at all[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m/>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNeutral[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m/>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mVery much[0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"question"[39m
-            [36m>[39m
-              [36m<p>[39m
-                [0mHow significant is the opportunity to be creative and have passion within your work?[0m
-              [36m</p>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNot significant[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m/>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNeutral[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m/>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mVery significant[0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"question"[39m
-            [36m>[39m
-              [36m<p>[39m
-                [0mHow easily do you adapt to changes in your work environment and job responsibilities?[0m
-              [36m</p>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mDifficult[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m/>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNeutral[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m/>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mEasy[0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"question"[39m
-            [36m>[39m
-              [36m<p>[39m
-                [0mHow important is it for you to make a measurable and meaningful impact through your work?[0m
-              [36m</p>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNot at all important[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m/>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNeutral[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m/>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mVery important[0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"question"[39m
-            [36m>[39m
-              [36m<p>[39m
-                [0mHow important is collaborative learning in your professional development?[0m
-              [36m</p>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNot at all important[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m/>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNeutral[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m/>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mVery important[0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"question"[39m
-            [36m>[39m
-              [36m<p>[39m
-                [0mHow significant is a structured and consistent routine within your workplace to your overall job satisfaction and productivity?[0m
-              [36m</p>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNot at all significant[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m/>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNeutral[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m/>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mVery significant[0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"question"[39m
-            [36m>[39m
-              [36m<p>[39m
-                [0mDo you prefer an office environment or an environment that is frequently changing?[0m
-              [36m</p>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mOffice[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m/>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mNeutral[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m/>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"btn btn-secondary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mChanging Environment[0m
-              [36m</button>[39m
-            [36m</div>[39m
-          [36m</div>[39m
-          [36m<footer[39m
-            [33mclass[39m=[32m"footer"[39m
-          [36m>[39m
-            [36m<h1>[39m
-              [0mKai Winterle, Joey Dare, Joanna Crisomia, Ricky Kiamilev[0m
-            [36m</h1>[39m
-            [36m<form[39m
-              [33mclass[39m=[32m""[39m
-            [36m>[39m
-              [36m<label[39m
-                [33mclass[39m=[32m"form-label"[39m
-              [36m>[39m
-                [0mAPI Key:[0m
-              [36m</label>[39m
-              [36m<input[39m
-                [33mclass[39m=[32m"form-control"[39m
-                [33mplaceholder[39m=[32m"Insert API Key Here"[39m
-                [33mtype[39m=[32m"password"[39m
-              [36m/>[39m
-              [36m<br />[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"Submit-Button btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mSubmit[0m
-              [36m</button>[39m
-            [36m</form>[39m
-          [36m</footer>[39m
         [36m</div>[39m
       [36m</div>[39m
     [36m</body>[39m
@@ -575,7 +585,7 @@ File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #
 ---------------------|---------|----------|---------|---------|-----------------------
 All files            |   29.78 |    47.87 |    5.35 |   29.78 |                       
  src                 |   28.91 |    47.87 |    4.16 |   28.91 |                       
-  App.tsx            |   33.33 |       50 |    4.34 |   33.33 | 17,40-46,52-54,93-205 
+  App.tsx            |   33.33 |       50 |    4.34 |   33.33 | 17,40-46,52-54,94-206 
   index.tsx          |       0 |      100 |     100 |       0 | 7-19                  
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10                  
  src/Pages           |   36.36 |      100 |    12.5 |   36.36 |                       
@@ -586,7 +596,7 @@ All files            |   29.78 |    47.87 |    5.35 |   29.78 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.124 s
+Time:        3.232 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
