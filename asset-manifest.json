@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/starter_helpi/static/css/main.33ea0160.css",
-    "main.js": "/starter_helpi/static/js/main.28fa68d3.js",
+    "main.css": "/starter_helpi/static/css/main.7548e4cc.css",
+    "main.js": "/starter_helpi/static/js/main.50164832.js",
     "static/js/453.bad6c33a.chunk.js": "/starter_helpi/static/js/453.bad6c33a.chunk.js",
+    "static/media/modifiedBrainIcon.svg": "/starter_helpi/static/media/modifiedBrainIcon.44e66497039a3dfc6d21b3e0e7c2cb6f.svg",
     "index.html": "/starter_helpi/index.html",
-    "main.33ea0160.css.map": "/starter_helpi/static/css/main.33ea0160.css.map",
-    "main.28fa68d3.js.map": "/starter_helpi/static/js/main.28fa68d3.js.map",
+    "main.7548e4cc.css.map": "/starter_helpi/static/css/main.7548e4cc.css.map",
+    "main.50164832.js.map": "/starter_helpi/static/js/main.50164832.js.map",
     "453.bad6c33a.chunk.js.map": "/starter_helpi/static/js/453.bad6c33a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33ea0160.css",
-    "static/js/main.28fa68d3.js"
+    "static/css/main.7548e4cc.css",
+    "static/js/main.50164832.js"
   ]
 }
