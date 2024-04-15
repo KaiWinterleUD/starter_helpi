@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (85 ms)
+  ✕ renders learn react link (81 ms)
 
   ● renders learn react link
 
@@ -525,41 +525,34 @@ FAIL src/App.test.tsx
         [36m<footer[39m
           [33mclass[39m=[32m"footer"[39m
         [36m>[39m
-          [36m<h3[39m
+          [36m<h2[39m
             [33mclass[39m=[32m"footer-container"[39m
           [36m>[39m
             [0mContact Us[0m
-          [36m</h3>[39m
-          [36m<h3[39m
+          [36m</h2>[39m
+          [36m<h2[39m
             [33mclass[39m=[32m"footer-container"[39m
           [36m>[39m
             [0mHelp[0m
-          [36m</h3>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"form-container"[39m
+          [36m</h2>[39m
+          [36m<form[39m
+            [33mclass[39m=[32m"api-form"[39m
           [36m>[39m
-            [36m<form[39m
-              [33mclass[39m=[32m""[39m
-            [36m>[39m
-              [36m<label[39m
-                [33mclass[39m=[32m"form-label"[39m
-              [36m>[39m
-                [0mAPI Key:[0m
-              [36m</label>[39m
+            [36m<div>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-control"[39m
+                [33mid[39m=[32m"apiKey"[39m
                 [33mplaceholder[39m=[32m"Insert API Key Here"[39m
                 [33mtype[39m=[32m"password"[39m
               [36m/>[39m
-              [36m<br />[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"Submit-Button btn btn-primary"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mSubmit[0m
-              [36m</button>[39m
-            [36m</form>[39m
-          [36m</div>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"Submit-Button btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mSubmit[0m
+            [36m</button>[39m
+          [36m</form>[39m
         [36m</footer>[39m
       [36m</div>[39m
     [36m</body>[39m
@@ -582,6 +575,18 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
 ---------------------|---------|----------|---------|---------|-----------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s     
 ---------------------|---------|----------|---------|---------|-----------------------
@@ -599,17 +604,5 @@ All files            |   28.71 |    47.87 |    6.34 |   28.71 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.306 s
+Time:        3.27 s
 Ran all test suites.
-[0;33mOne of your dependencies, babel-preset-react-app, is importing the
-"@babel/plugin-proposal-private-property-in-object" package without
-declaring it in its dependencies. This is currently working because
-"@babel/plugin-proposal-private-property-in-object" is already in your
-node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
-
-babel-preset-react-app is part of the create-react-app project, [1mwhich
-is not maintianed anymore[0;33m. It is thus unlikely that this bug will
-ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
-your devDependencies to work around this error. This will make this message
-go away.[0m
-  
