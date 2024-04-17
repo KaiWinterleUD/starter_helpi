@@ -12,9 +12,8 @@
 .header {
   top: 0;
   width: 100%;
-  text-align: center;
-  background-color: white; 
-  display: flex; 
+  height: 60px;
+  background-color: white;  
   align-items: center; 
 }
 
@@ -24,6 +23,7 @@
   margin-right: 30px;
   margin-left: 10px;
   font-family: "MADE Tommy Soft", sans-serif;
+  font-size: 27px;
 }
 
 .footer-container:hover {

@@ -16,6 +16,7 @@ if (prevKey !== null) {
 
 function App() {
   const [key, setKey] = useState<string>(keyData); //for api key input
+  const [currPg, setCurrPg] = useState<string>('Home');
   
   //sets the local storage item to the api key the user inputed
   function handleSubmit() {
@@ -31,21 +32,19 @@ function App() {
   return (
     <>
     <NavHome></NavHome>
-    {/* Replace <BasicQuestions></BasicQuestions> with the actual implementation of the BasicQuestions component */}
+          {updatePageState()}
     
-    <BasicQuestions> </BasicQuestions>
-        
-        <footer className="footer">
-          <h2 className="footer-container">Contact Us</h2>
-          <h2 className="footer-container">Help</h2>
-          <Form className="api-form">
-        <Form.Group controlId="apiKey">
-          <Form.Control type="password" placeholder="Insert API Key Here" onChange={changeKey} />
-        </Form.Group>
-        <Button className="Submit-Button" onClick={handleSubmit}>Submit</Button>
-      </Form>
-      </footer>
-          </>
+  <footer className="footer">
+    <h2 className="footer-container">Contact Us</h2>
+    <h2 className="footer-container">Help</h2>
+    <Form className="api-form">
+  <Form.Group controlId="apiKey">
+    <Form.Control type="password" placeholder="Insert API Key Here" onChange={changeKey} />
+  </Form.Group>
+  <Button className="Submit-Button" onClick={handleSubmit}>Submit</Button>
+</Form>
+</footer>
+    </>
   );
 }
 
