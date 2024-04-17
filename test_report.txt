@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (57 ms)
+  ✕ renders learn react link (61 ms)
 
   ● renders learn react link
 
@@ -68,50 +68,82 @@ FAIL src/App.test.tsx
             [36m</div>[39m
           [36m</div>[39m
         [36m</div>[39m
-        [36m<header[39m
-          [33mclass[39m=[32m"header"[39m
-        [36m>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"hover-container"[39m
+        [36m<div>[39m
+          [36m<header[39m
+            [33mclass[39m=[32m"header"[39m
           [36m>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"icon-container"[39m
+              [33mclass[39m=[32m"hover-container"[39m
             [36m>[39m
-              [36m<img[39m
-                [33malt[39m=[32m"Brain Icon"[39m
-                [33mclass[39m=[32m"icon"[39m
-                [33msrc[39m=[32m"modifiedBrainIcon.svg"[39m
-              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"icon-container"[39m
+              [36m>[39m
+                [36m<img[39m
+                  [33malt[39m=[32m"Brain Icon"[39m
+                  [33mclass[39m=[32m"icon"[39m
+                  [33msrc[39m=[32m"modifiedBrainIcon.svg"[39m
+                [36m/>[39m
+              [36m</div>[39m
             [36m</div>[39m
-          [36m</div>[39m
-          [36m<h2[39m
-            [33mclass[39m=[32m"title"[39m
-          [36m>[39m
-            [0mBrain Spark[0m
-          [36m</h2>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"home-container"[39m
-          [36m>[39m
-            [36m<button[39m
-              [33mclass[39m=[32m"home-button btn btn-primary"[39m
-              [33mtype[39m=[32m"button"[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"title"[39m
             [36m>[39m
-              [0mHome Page[0m
-            [36m</button>[39m
+              [0mBrain Spark[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"home-container"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"home-button btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<img[39m
+                  [33malt[39m=[32m"Home Page"[39m
+                  [33mclass[39m=[32m"button-icon"[39m
+                  [33msrc[39m=[32m"house.svg"[39m
+                [36m/>[39m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</header>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"home-center"[39m
+          [36m>[39m
+            [36m<h1[39m
+              [33mclass[39m=[32m"center-title"[39m
+            [36m>[39m
+              [0mStart your future here[0m
+            [36m</h1>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"center-left"[39m
+            [36m>[39m
+              [0mStudent-made career test[0m
+              [36m<br />[39m
+              [0mpowered through the use of AI[0m
+            [36m</p>[39m
             [36m<button[39m
               [33mclass[39m=[32m"basic-button btn btn-primary"[39m
               [33mtype[39m=[32m"button"[39m
             [36m>[39m
               [0mBasic Questions[0m
+              [36m<img[39m
+                [33malt[39m=[32m"arrow"[39m
+                [33mclass[39m=[32m"arrow-icon"[39m
+                [33msrc[39m=[32m"arrow.svg"[39m
+              [36m/>[39m
             [36m</button>[39m
             [36m<button[39m
               [33mclass[39m=[32m"detailed-button btn btn-primary"[39m
               [33mtype[39m=[32m"button"[39m
             [36m>[39m
               [0mDetailed Questions[0m
+              [36m<img[39m
+                [33malt[39m=[32m"arrow"[39m
+                [33mclass[39m=[32m"arrow-icon"[39m
+                [33msrc[39m=[32m"arrow.svg"[39m
+              [36m/>[39m
             [36m</button>[39m
           [36m</div>[39m
-        [36m</header>[39m
+        [36m</div>[39m
         [36m<footer[39m
           [33mclass[39m=[32m"footer"[39m
         [36m>[39m
@@ -175,14 +207,14 @@ All files            |   25.42 |       30 |   13.79 |   26.31 |
   navbar.tsx         |     100 |      100 |     100 |     100 |                   
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
  src/Pages           |    12.9 |      100 |    4.54 |   13.79 |                   
-  Basic.tsx          |    8.33 |      100 |       0 |    9.09 | 17-96             
-  Detailed.tsx       |    8.33 |      100 |       0 |    9.09 | 17-96             
-  Home.tsx           |   28.57 |      100 |   16.66 |   28.57 | 14-21             
+  Basic.tsx          |    8.33 |      100 |       0 |    9.09 | 18-97             
+  Detailed.tsx       |    8.33 |      100 |       0 |    9.09 | 18-97             
+  Home.tsx           |   28.57 |      100 |   16.66 |   28.57 | 17-29             
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.905 s
+Time:        2.901 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
