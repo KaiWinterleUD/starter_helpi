@@ -124,3 +124,25 @@
     margin-left: 2%;
     margin-top: 0.29%
 }
+
+h3 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px; /* Smaller font size */
+    color: #333; /* Dark gray color */
+}
+
+.button-questions {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px; /* Smaller font size */
+    color: #333; /* Dark gray color */
+}
+
+/* Responsive font sizes */
+@media (max-width: 768px) {
+    h3 {
+        font-size: 16px;
+    }
+    .button-questions {
+        font-size: 14px;
+    }
+}
