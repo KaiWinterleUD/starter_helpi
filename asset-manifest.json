@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/starter_helpi/static/css/main.f29838b9.css",
+    "main.css": "/starter_helpi/static/css/main.cd6b8900.css",
     "main.js": "/starter_helpi/static/js/main.cad96fd4.js",
     "static/js/453.bad6c33a.chunk.js": "/starter_helpi/static/js/453.bad6c33a.chunk.js",
     "static/media/modifiedBrainIcon.svg": "/starter_helpi/static/media/modifiedBrainIcon.44e66497039a3dfc6d21b3e0e7c2cb6f.svg",
     "index.html": "/starter_helpi/index.html",
     "static/media/house.svg": "/starter_helpi/static/media/house.8c9f551ff5ea0d8c2b05f6f60efd7fc4.svg",
     "static/media/arrow.svg": "/starter_helpi/static/media/arrow.6b6717c1b72198470963e764d28fd02f.svg",
-    "main.f29838b9.css.map": "/starter_helpi/static/css/main.f29838b9.css.map",
+    "main.cd6b8900.css.map": "/starter_helpi/static/css/main.cd6b8900.css.map",
     "main.cad96fd4.js.map": "/starter_helpi/static/js/main.cad96fd4.js.map",
     "453.bad6c33a.chunk.js.map": "/starter_helpi/static/js/453.bad6c33a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f29838b9.css",
+    "static/css/main.cd6b8900.css",
     "static/js/main.cad96fd4.js"
   ]
 }
