@@ -100,6 +100,10 @@ FAIL src/App.test.tsx
           [36m<div[39m
             [33mclass[39m=[32m"home-center"[39m
           [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"background-image"[39m
+              [33mstyle[39m=[32m"background-image: url(telescope-man.png);"[39m
+            [36m/>[39m
             [36m<h1[39m
               [33mclass[39m=[32m"center-title"[39m
             [36m>[39m
@@ -111,6 +115,16 @@ FAIL src/App.test.tsx
               [0mStudent-made career test[0m
               [36m<br />[39m
               [0mpowered through the use of AI[0m
+            [36m</p>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"basic-page-description"[39m
+            [36m>[39m
+              [0mThe Basic Page provides a quick overview of potential career paths based on your responses to fundamental questions. It's a great starting point for exploring your interests and skills.[0m
+            [36m</p>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"detailed-page-description"[39m
+            [36m>[39m
+              [0mThe Detailed Page offers a more in-depth insight into specific career options by asking more detailed into what you really want out of a career Dive deeper into each career path to make well-informed decisions about your future.[0m
             [36m</p>[39m
             [36m<button[39m
               [33mclass[39m=[32m"basic-button btn btn-primary"[39m
@@ -201,12 +215,12 @@ All files            |   25.42 |       30 |    12.9 |   26.31 |
  src/Pages           |    12.9 |      100 |    4.16 |   13.79 |                   
   Basic.tsx          |    8.33 |      100 |       0 |    9.09 | 19-69             
   Detailed.tsx       |    8.33 |      100 |       0 |    9.09 | 19-69             
-  Home.tsx           |   28.57 |      100 |   16.66 |   28.57 | 16-25             
+  Home.tsx           |   28.57 |      100 |   16.66 |   28.57 | 17-36             
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.039 s
+Time:        2.841 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
