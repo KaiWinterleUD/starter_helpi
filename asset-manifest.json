@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/starter_helpi/static/css/main.77b3acb1.css",
-    "main.js": "/starter_helpi/static/js/main.54735bc1.js",
+    "main.css": "/starter_helpi/static/css/main.1bf39dfc.css",
+    "main.js": "/starter_helpi/static/js/main.b2111f16.js",
     "static/js/453.bad6c33a.chunk.js": "/starter_helpi/static/js/453.bad6c33a.chunk.js",
     "static/media/telescope-man.png": "/starter_helpi/static/media/telescope-man.b7c17847db42a643aa46.png",
     "static/media/PlayfairDisplay-Black.ttf": "/starter_helpi/static/media/PlayfairDisplay-Black.9838940b9aee7af3976b.ttf",
@@ -12,12 +12,12 @@
     "index.html": "/starter_helpi/index.html",
     "static/media/house.svg": "/starter_helpi/static/media/house.8c9f551ff5ea0d8c2b05f6f60efd7fc4.svg",
     "static/media/arrow.svg": "/starter_helpi/static/media/arrow.6b6717c1b72198470963e764d28fd02f.svg",
-    "main.77b3acb1.css.map": "/starter_helpi/static/css/main.77b3acb1.css.map",
-    "main.54735bc1.js.map": "/starter_helpi/static/js/main.54735bc1.js.map",
+    "main.1bf39dfc.css.map": "/starter_helpi/static/css/main.1bf39dfc.css.map",
+    "main.b2111f16.js.map": "/starter_helpi/static/js/main.b2111f16.js.map",
     "453.bad6c33a.chunk.js.map": "/starter_helpi/static/js/453.bad6c33a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77b3acb1.css",
-    "static/js/main.54735bc1.js"
+    "static/css/main.1bf39dfc.css",
+    "static/js/main.b2111f16.js"
   ]
 }
