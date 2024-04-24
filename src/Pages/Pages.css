@@ -125,3 +125,24 @@
     margin-top: 0.29%
 }
 
+h3 {
+    font-family: 'Helvetica', 'Arial', sans-serif;  /* Uses Helvetica, with Arial as a fallback */
+    font-size: 18px;  /* Current size, adjust if necessary */
+    color: #333;  /* Dark grey color */
+}
+
+.button-questions {
+    font-family: 'Helvetica', 'Arial', sans-serif;  
+    font-size: 14px;  
+    color: #333;  
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    h3 {
+        font-size: 14px;  /* Smaller font size for smaller screens */
+    }
+    .button-questions {
+        font-size: 12px;  /* Smaller buttons on smaller screens */
+    }
+}

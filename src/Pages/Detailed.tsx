@@ -53,7 +53,7 @@ const Detailed: React.FC<DetailedProp> = ({ handlePage }) => {
 
     return (
         <div>
-       <header className="header">
+        <header className="header">
         <div className="title-container">
         <img src={BrainIcon} alt="Brain Icon" className="brainIcon" onClick ={() => handlePage('Home')}/>
         <h2 className="title" onClick ={() => handlePage('Home')}>Brain Spark</h2>
