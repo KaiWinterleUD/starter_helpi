@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/starter_helpi/static/css/main.8fb45eae.css",
-    "main.js": "/starter_helpi/static/js/main.ca8dd5c0.js",
+    "main.css": "/starter_helpi/static/css/main.7e4f50de.css",
+    "main.js": "/starter_helpi/static/js/main.9eff1acb.js",
     "static/js/453.bad6c33a.chunk.js": "/starter_helpi/static/js/453.bad6c33a.chunk.js",
     "static/media/telescope-man.png": "/starter_helpi/static/media/telescope-man.b7c17847db42a643aa46.png",
     "static/media/PlayfairDisplay-Black.ttf": "/starter_helpi/static/media/PlayfairDisplay-Black.9838940b9aee7af3976b.ttf",
@@ -11,13 +11,16 @@
     "static/media/modifiedBrainIcon.svg": "/starter_helpi/static/media/modifiedBrainIcon.44e66497039a3dfc6d21b3e0e7c2cb6f.svg",
     "index.html": "/starter_helpi/index.html",
     "static/media/house.svg": "/starter_helpi/static/media/house.8c9f551ff5ea0d8c2b05f6f60efd7fc4.svg",
+    "static/media/sad.svg": "/starter_helpi/static/media/sad.fe114a94de24ea25dce516a19c0ef1d0.svg",
+    "static/media/smile.svg": "/starter_helpi/static/media/smile.659f3dd554cefabc028e09fe8805c6ab.svg",
+    "static/media/meh.svg": "/starter_helpi/static/media/meh.6dbeb6e143eee3fade5ce097d70e077e.svg",
     "static/media/arrow.svg": "/starter_helpi/static/media/arrow.6b6717c1b72198470963e764d28fd02f.svg",
-    "main.8fb45eae.css.map": "/starter_helpi/static/css/main.8fb45eae.css.map",
-    "main.ca8dd5c0.js.map": "/starter_helpi/static/js/main.ca8dd5c0.js.map",
+    "main.7e4f50de.css.map": "/starter_helpi/static/css/main.7e4f50de.css.map",
+    "main.9eff1acb.js.map": "/starter_helpi/static/js/main.9eff1acb.js.map",
     "453.bad6c33a.chunk.js.map": "/starter_helpi/static/js/453.bad6c33a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fb45eae.css",
-    "static/js/main.ca8dd5c0.js"
+    "static/css/main.7e4f50de.css",
+    "static/js/main.9eff1acb.js"
   ]
 }
