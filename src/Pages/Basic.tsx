@@ -19,11 +19,11 @@ interface QuestionOption {
 
 
 const Basic: React.FC<BasicProp> = ({ handlePage }) => {
-    // Create a state object where keys are question indexes and values are the selected options
+    // Create object where keys are question indexes and values are the selected options
     const [activeOptions, setActiveOptions] = useState<{ [key: number]: string }>({});
-
+    
     const handleOptionClick = (questionIndex: number, option: string) => {
-        // Update the active option for the specific question
+        // Update the active option for specific question
         setActiveOptions(prevState => ({
             ...prevState,
             [questionIndex]: option
@@ -57,7 +57,7 @@ const Basic: React.FC<BasicProp> = ({ handlePage }) => {
         },
         {
             question: "Do you prefer an office environment or an environment that is frequently changing?",
-            options: ["Office", "Neutral", "Changing Environment"] // Corrected options split
+            options: ["Office", "Neutral", "Changing Environment"] 
         }
     ];
 
