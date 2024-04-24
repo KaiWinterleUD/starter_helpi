@@ -125,12 +125,23 @@
     margin-top: 0.29%
 }
 
-.progressBar {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 20px; 
-    
+.progressBarContainer {
+    width: 45%; 
+    margin: 0 auto; 
+    padding: 10px 0; 
 }
+
+.progressBar {
+    height: 20px; 
+    border-radius: 10px; 
+    background-color: #f0f0f0; 
+}
+
+.progressBar .progress-bar {
+    background-color: #007bff; 
+    border-radius: 10px; 
+}
+
 
 h3 {
     font-family: 'Helvetica', 'Arial', sans-serif; 

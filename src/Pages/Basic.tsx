@@ -74,8 +74,9 @@ const Basic: React.FC<BasicProp> = ({ handlePage }) => {
                     <Button className="home-button" onClick={() => handlePage('Home')}><img src={homeIcon} alt="Home Page" className="homeIcon" /></Button>
                 </div>
             </header>
-            {/* Progress Bar*/}
-            <ProgressBar className="progressBar" now={progressPercentage} label={`${Math.round(progressPercentage)}%`} />
+            <div className="progressBarContainer">
+                <ProgressBar className="progressBar" now={progressPercentage} label={`${Math.round(progressPercentage)}%`} />
+            </div>
             <div className="column">
                 {questions.map((question, index) => (
                     <div key={index}>
@@ -96,6 +97,7 @@ const Basic: React.FC<BasicProp> = ({ handlePage }) => {
             </div>
         </div>
     );
+    
 }
 
 export default Basic;
