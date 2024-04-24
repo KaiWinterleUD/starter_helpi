@@ -6,7 +6,6 @@ import homeIcon from './house.svg';
 import './Pages.css';
 import './questions.css';
 
-
 interface BasicProp {
     handlePage: (page: string) => void;
 }
@@ -16,12 +15,10 @@ interface QuestionOption {
     options: string[];
 }
 
-
-
 const Basic: React.FC<BasicProp> = ({ handlePage }) => {
     // Create object where keys are question indexes and values are the selected options
     const [activeOptions, setActiveOptions] = useState<{ [key: number]: string }>({});
-    
+
     const handleOptionClick = (questionIndex: number, option: string) => {
         // Update the active option for specific question
         setActiveOptions(prevState => ({

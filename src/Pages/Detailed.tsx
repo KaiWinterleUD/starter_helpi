@@ -16,6 +16,7 @@ interface QuestionOption {
 }
 
 const Detailed: React.FC<DetailedProp> = ({ handlePage }) => {
+    // Create object where keys are question indexes and values are the selected options
     const [activeOptions, setActiveOptions] = useState<{ [key: number]: string }>({});
     
     const handleOptionClick = (questionIndex: number, option: string) => {
@@ -71,14 +72,14 @@ const Detailed: React.FC<DetailedProp> = ({ handlePage }) => {
                 </div>
             </header>
             <div className="progressBarContainer">
-                <ProgressBar now={progressPercentage} label={`${Math.round(progressPercentage)}%`} />
+                <ProgressBar className="progressBar" now={progressPercentage} label={`${Math.round(progressPercentage)}%`} />
             </div>
             <div className="column">
                 {questions.map((question, index) => (
                     <div key={index}>
                         <h3>{question.question}</h3>
                         <div className="questionContainer">
-                        {question.options.map((option, optionIndex) => (
+                            {question.options.map((option, optionIndex) => (
                                 <Button
                                     className={`button-questions ${option === activeOptions[index] ? 'button-pressed' : ''}`}
                                     key={optionIndex}
