@@ -66,7 +66,7 @@ const Basic: React.FC<BasicProp> = ({ handlePage }) => {
                     <h3>{q.question}</h3>
                     <div className="questionContainer">
                         {q.options.map((option, i) => (
-                            <Button className="button-question" key={i} onClick={() => handleOptionClick(option)}>{option}</Button>
+                            <Button className="button-questions" key={i} onClick={() => handleOptionClick(option)}>{option}</Button>
                         ))}
                     </div>
                 </div>

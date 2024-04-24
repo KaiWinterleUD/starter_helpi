@@ -137,6 +137,7 @@ h3 {
     color: #333;  
 }
 
+
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     h3 {
