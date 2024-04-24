@@ -1,10 +1,11 @@
 
-import React, { } from 'react';
-import {Button} from 'react-bootstrap';
+import React, { useState } from 'react';
+import {Button, ProgressBar} from 'react-bootstrap';
 import BrainIcon from './modifiedBrainIcon.svg';
 import homeIcon from './house.svg';
 import './Pages.css';
 import './questions.css';
+
 
 interface BasicProp {
     handlePage: (page: string) => void;
@@ -15,9 +16,18 @@ interface QuestionOption {
     options: string[];
 }
 
+
+
 const Basic: React.FC<BasicProp> = ({ handlePage }) => {
-    const handleOptionClick = (option: string) => {
-        console.log(option);
+    // Create a state object where keys are question indexes and values are the selected options
+    const [activeOptions, setActiveOptions] = useState<{ [key: number]: string }>({});
+
+    const handleOptionClick = (questionIndex: number, option: string) => {
+        // Update the active option for the specific question
+        setActiveOptions(prevState => ({
+            ...prevState,
+            [questionIndex]: option
+        }));
     };
 
     const questions: QuestionOption[] = [
@@ -51,29 +61,41 @@ const Basic: React.FC<BasicProp> = ({ handlePage }) => {
         }
     ];
 
+    const totalQuestions = questions.length;
+    const answeredQuestions = Object.keys(activeOptions).length;
+    const progressPercentage: number = (answeredQuestions / totalQuestions) * 100;
+
     return (
         <div>
-        <header className="header">
-        <div className="title-container">
-        <img src={BrainIcon} alt="Brain Icon" className="brainIcon" onClick ={() => handlePage('Home')}/>
-        <h2 className="title" onClick ={() => handlePage('Home')}>Brain Spark</h2>
-            <Button className="home-button" onClick={() => handlePage('Home')}><img src={homeIcon} alt="Home Page" className="homeIcon" /></Button>
-        </div>
-        </header>
-        <div className="column">
-            {questions.map((q, x) => (
-                <div key={x}>
-                    <h3>{q.question}</h3>
-                    <div className="questionContainer">
-                        {q.options.map((option, i) => (
-                            <Button className="button-questions" key={i} onClick={() => handleOptionClick(option)}>{option}</Button>
-                        ))}
-                    </div>
+            <header className="header">
+                <div className="title-container">
+                    <img src={BrainIcon} alt="Brain Icon" className="brainIcon" onClick={() => handlePage('Home')} />
+                    <h2 className="title" onClick={() => handlePage('Home')}>Brain Spark</h2>
+                    <Button className="home-button" onClick={() => handlePage('Home')}><img src={homeIcon} alt="Home Page" className="homeIcon" /></Button>
                 </div>
-            ))}
+            </header>
+            {/* Progress Bar*/}
+            <ProgressBar className="progressBar" now={progressPercentage} label={`${Math.round(progressPercentage)}%`} />
+            <div className="column">
+                {questions.map((question, index) => (
+                    <div key={index}>
+                        <h3>{question.question}</h3>
+                        <div className="questionContainer">
+                            {question.options.map((option, optionIndex) => (
+                                <Button
+                                    className={`button-questions ${option === activeOptions[index] ? 'button-pressed' : ''}`}
+                                    key={optionIndex}
+                                    onClick={() => handleOptionClick(index, option)}
+                                >
+                                    {option}
+                                </Button>
+                            ))}
+                        </div>
+                    </div>
+                ))}
+            </div>
         </div>
-    </div>
-    )
+    );
 }
 
 export default Basic;

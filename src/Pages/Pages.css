@@ -125,16 +125,34 @@
     margin-top: 0.29%
 }
 
+.progressBar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 20px; 
+    
+}
+
 h3 {
-    font-family: 'Helvetica', 'Arial', sans-serif;  /* Uses Helvetica, with Arial as a fallback */
-    font-size: 18px;  /* Current size, adjust if necessary */
-    color: #333;  /* Dark grey color */
+    font-family: 'Helvetica', 'Arial', sans-serif; 
+    font-size: 18px;  
+    color: #333;  
 }
 
 .button-questions {
     font-family: 'Helvetica', 'Arial', sans-serif;  
     font-size: 14px;  
     color: #333;  
+    background-color: #0066cc; 
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* transition for color changes */
+
+}
+
+.button-questions:hover, .button-pressed {
+    background-color: #004499; /* Dark blue */
 }
 
 
