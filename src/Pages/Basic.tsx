@@ -42,11 +42,11 @@ const Basic: React.FC<BasicProp> = ({ handlePage }) => {
         },
         {
             question: "How important is it for you to make a tangible impact through your work?",
-            options: ["Not at All important", "Neutral", "Very Important"]
+            options: ["Not at All Important", "Neutral", "Very Important"]
         },
         {
             question: "How important is having a set routine in the workplace to you?",
-            options: ["Not at All important", "Neutral", "Very Important"]
+            options: ["Not at All Important", "Neutral", "Very Important"]
         },
         {
             question: "Do you see yourself as a natural leader and enjoy taking charge of projects?",

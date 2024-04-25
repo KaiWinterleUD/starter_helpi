@@ -34,7 +34,7 @@ const Detailed: React.FC<DetailedProp> = ({ handlePage }) => {
         },
         {
             question: "How significant is the opportunity to be creative and have passion within your work?",
-            options: ["Not at All", "", "Neutral","", "Very Significant"]
+            options: ["Not at All Significant", "", "Neutral","", "Very Significant"]
         },
         {
             question: "How easily do you adapt to changes in your work environment and job responsibilities?",
@@ -42,15 +42,15 @@ const Detailed: React.FC<DetailedProp> = ({ handlePage }) => {
         },
         {
             question: "How important is it for you to make a measurable and meaningful impact through your work?",
-            options: ["Not at All", "", "Neutral", "", "Very Important"]
+            options: ["Not at All Important", "", "Neutral", "", "Very Important"]
         },
         {
             question: "How important is collaborative learning in your professional development?",
-            options: ["Not at All", "", "Neutral", "", "Very Important"]
+            options: ["Not at All Important", "", "Neutral", "", "Very Important"]
         },
         {
             question: "How significant is a structured and consistent routine within your workplace to your overall job satisfaction and productivity?",
-            options: ["Not at All", "", "Neutral", "", "Very Significant"]
+            options: ["Not at All Significant", "", "Neutral", "", "Very Significant"]
         },
         {
             question: "Do you prefer an office environment or an environment that is frequently changing?",
