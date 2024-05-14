@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (55 ms)
+  ✕ renders learn react link (54 ms)
 
   ● renders learn react link
 
@@ -264,14 +264,14 @@ FAIL src/App.test.tsx
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |    19.8 |    23.52 |   11.11 |   20.61 |                   
+All files            |      20 |    23.52 |   11.36 |   20.83 |                   
  src                 |   36.11 |    44.44 |      25 |   36.11 |                   
   App.tsx            |   57.14 |    57.14 |      30 |   57.14 | 18,31-37,51-55    
   index.tsx          |       0 |      100 |     100 |       0 | 7-19              
   navbar.tsx         |      25 |      100 |      25 |      25 | 20-33             
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
- src/Pages           |   10.76 |        0 |    3.44 |   11.47 |                   
-  Basic.tsx          |    6.89 |        0 |       0 |     7.4 | 37-161            
+ src/Pages           |   10.93 |        0 |    3.57 |   11.66 |                   
+  Basic.tsx          |    7.14 |        0 |       0 |    7.69 | 37-165            
   Detailed.tsx       |    6.89 |        0 |       0 |     7.4 | 37-159            
   Home.tsx           |      50 |      100 |   33.33 |      50 | 27-28             
   Results.tsx        |      50 |      100 |       0 |      50 | 10                
@@ -280,7 +280,7 @@ All files            |    19.8 |    23.52 |   11.11 |   20.61 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.203 s
+Time:        3.202 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
