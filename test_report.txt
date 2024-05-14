@@ -3,15 +3,39 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (74 ms)
+  ✕ renders learn react link (55 ms)
 
   ● renders learn react link
 
     TestingLibraryElementError: Unable to find an element with the text: /learn react/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
 
     Ignored nodes: comments, script, style
-    [36m<body>[39m
+    [36m<body[39m
+      [33mstyle[39m=[32m"overflow: hidden;"[39m
+    [36m>[39m
       [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"fade-screen"[39m
+        [36m>[39m
+          [36m<h1[39m
+            [33mclass[39m=[32m"cloud-title"[39m
+          [36m>[39m
+            [0mBrain Spark[0m
+          [36m</h1>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"blue-background"[39m
+          [36m/>[39m
+          [36m<img[39m
+            [33malt[39m=[32m"Clouds"[39m
+            [33mclass[39m=[32m"clouds-background"[39m
+            [33msrc[39m=[32m"Clouds.png"[39m
+          [36m/>[39m
+          [36m<img[39m
+            [33malt[39m=[32m"Clouds"[39m
+            [33mclass[39m=[32m"clouds-background-flip"[39m
+            [33msrc[39m=[32m"Clouds.png"[39m
+          [36m/>[39m
+        [36m</div>[39m
         [36m<div[39m
           [33mclass[39m=[32m"navBar"[39m
         [36m>[39m
@@ -240,9 +264,9 @@ FAIL src/App.test.tsx
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |   18.68 |     14.7 |   10.81 |    19.1 |                   
- src                 |   35.71 |    35.71 |      30 |   35.71 |                   
-  App.tsx            |   69.23 |       50 |      50 |   69.23 | 16,25-31          
+All files            |    20.2 |    21.05 |   11.62 |   20.61 |                   
+ src                 |   36.11 |    44.44 |      25 |   36.11 |                   
+  App.tsx            |   57.14 |    57.14 |      30 |   57.14 | 18,31-37,51-55    
   index.tsx          |       0 |      100 |     100 |       0 | 7-19              
   navbar.tsx         |      25 |      100 |      25 |      25 | 20-33             
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
@@ -256,7 +280,7 @@ All files            |   18.68 |     14.7 |   10.81 |    19.1 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.249 s
+Time:        3.225 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without

@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/starter_helpi/static/css/main.d6a9a3d9.css",
-    "main.js": "/starter_helpi/static/js/main.1752a3b9.js",
+    "main.css": "/starter_helpi/static/css/main.8273667e.css",
+    "main.js": "/starter_helpi/static/js/main.8002e2c0.js",
     "static/js/453.bad6c33a.chunk.js": "/starter_helpi/static/js/453.bad6c33a.chunk.js",
+    "static/media/Clouds.png": "/starter_helpi/static/media/Clouds.2c6729adaec2e158b750.png",
     "static/media/telescope-man.png": "/starter_helpi/static/media/telescope-man.b7c17847db42a643aa46.png",
     "static/media/PlayfairDisplay-Black.ttf": "/starter_helpi/static/media/PlayfairDisplay-Black.9838940b9aee7af3976b.ttf",
     "static/media/Poppins-Light.ttf": "/starter_helpi/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
@@ -15,12 +16,12 @@
     "static/media/smile.svg": "/starter_helpi/static/media/smile.659f3dd554cefabc028e09fe8805c6ab.svg",
     "static/media/meh.svg": "/starter_helpi/static/media/meh.6dbeb6e143eee3fade5ce097d70e077e.svg",
     "static/media/arrow.svg": "/starter_helpi/static/media/arrow.6b6717c1b72198470963e764d28fd02f.svg",
-    "main.d6a9a3d9.css.map": "/starter_helpi/static/css/main.d6a9a3d9.css.map",
-    "main.1752a3b9.js.map": "/starter_helpi/static/js/main.1752a3b9.js.map",
+    "main.8273667e.css.map": "/starter_helpi/static/css/main.8273667e.css.map",
+    "main.8002e2c0.js.map": "/starter_helpi/static/js/main.8002e2c0.js.map",
     "453.bad6c33a.chunk.js.map": "/starter_helpi/static/js/453.bad6c33a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6a9a3d9.css",
-    "static/js/main.1752a3b9.js"
+    "static/css/main.8273667e.css",
+    "static/js/main.8002e2c0.js"
   ]
 }
